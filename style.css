@@ -279,6 +279,56 @@ padding: 40px;
 }
 
 
+.vs-icon {
+    background: hsla(40, 60%, 46%, 1);
 
+background: linear-gradient(315deg, hsla(40, 60%, 46%, 1) 0%, hsla(42, 60%, 67%, 1) 100%);
 
+background: -moz-linear-gradient(315deg, hsla(40, 60%, 46%, 1) 0%, hsla(42, 60%, 67%, 1) 100%);
+
+background: -webkit-linear-gradient(315deg, hsla(40, 60%, 46%, 1) 0%, hsla(42, 60%, 67%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#bc8c2f", endColorstr="#ddbf79", GradientType=1 );
+}
+.vs-icon::before {
+    border: 1px dashed #bc8c2f;
+
+}
+.banner-style3 .banner-title {
+    max-width: 600px;
+}
+.banner-style3 p {
+    font-size: 18px;
+    max-width: 660px;
+    color: #eee;
+}
+@media (max-width: 991px) {
+    .banner-style3 .banner-title {
+        max-width: 360px;
+    }
+}
+.imgrad img{
+border-radius: 16px!important;
+}
+@media (max-width: 576px) {
+    .imgrad img{
+       min-height: 360px;
+       width: 100%;
+       object-fit: cover;
+    }
+    .cta_sec_home h2{
+        width: 100%!important;
+        font-size: 28px!important;
+    }
+    .cta_sec_home p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+.work_hours{
+    height: 100%;
+    width: 100%;
+    background: url('assets/img/bg/team-bg-5-1.jpg');
+    background-size: cover;
+}
 
