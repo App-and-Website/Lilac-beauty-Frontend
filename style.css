@@ -1,0 +1,284 @@
+
+
+.header-layout6 .header-top, .header-layout3 .header-top, .header-layout2 .header-top, .header-layout1 .header-top {
+    background-color: #000;
+    border-bottom: 1px solid #888;
+}
+.social-style1 {
+    background-color: #000;
+    padding: 10px 25px;
+}
+
+.header_main{
+    background: url('assets/images/lilac_hero_bg.jpg');
+    background-size: cover;
+}
+
+.will-sticky .sticky-active {
+    position: fixed;
+    top: -100%;
+    right: 0px;
+    left: 0px;
+    background-color: #49267f;
+    transition: 0.8s;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 10px 0px;
+}
+
+.header_row{
+    position: relative;
+}
+.header_logo_bg{
+    position: absolute;
+    left: -200px;
+    top: 0;
+    height: 100%;
+    width: 280px;
+    z-index: -1;
+    background: transparent;
+}
+.header_logo {
+    background-color: transparent;
+    margin-top: 0px;
+    padding: 10px 40px 10px 0px;
+    max-width: fit-content!important;
+    clip-path: polygon(0 1%, 100% 0, 88% 100%, 0% 100%);
+}
+.header_logo img{
+    height: 85px;
+    max-width: fit-content!important;
+}
+.menu-style1 > ul > li > a {
+    padding: 15px 0;
+    color: #eee;
+    font-weight: 500;
+    text-transform: none!important;
+}
+.menu-style1 > ul > li > a:hover {
+    color: #fff;
+}
+.social-style1 {
+    padding: 10px 0px 10px 25px;
+}
+.vs-btn {
+    font-size: 18px;
+    background: hsla(40, 60%, 46%, 1);
+
+    background: linear-gradient(90deg, hsla(40, 60%, 46%, 1) 50%, hsla(40, 52%, 68%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(40, 60%, 46%, 1) 50%, hsla(40, 52%, 68%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(40, 60%, 46%, 1) 50%, hsla(40, 52%, 68%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#BC8C2F", endColorstr="#D7BA82", GradientType=1 );
+}
+.vs-btn:hover::after {
+    background: hsla(40, 60%, 46%, 1);
+}
+.vs-btn:hover::before {
+    background: hsla(40, 60%, 46%, 1);
+}
+.vs-menu-toggle {
+   background: #bc8c2f;
+}
+
+@media screen and (min-width: 1500px) {
+    .main-menu a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hide_medium{
+       display: none!important;
+    }
+}
+
+.mobile_logo_sidebar{
+    background: #49267f!important;
+}
+
+.hero_content{
+    max-width: 600px;
+}
+.hero_content h1{
+    font-size: 3rem!important;
+    font-weight: 600;
+}
+@media screen and (max-width: 992px) {
+    .hero_content h1{
+        font-size: 2.5rem!important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero_content{
+        padding: 0 12px;
+    }
+}
+
+
+.vs-btn.style4:after, .vs-btn.style3:after {
+    background: hsla(40, 60%, 46%, 1);
+
+    background: linear-gradient(90deg, hsla(40, 60%, 46%, 1) 50%, hsla(40, 52%, 68%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(40, 60%, 46%, 1) 50%, hsla(40, 52%, 68%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(40, 60%, 46%, 1) 50%, hsla(40, 52%, 68%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#BC8C2F", endColorstr="#D7BA82", GradientType=1 );
+}
+.vs-btn.style3{
+    font-weight: 600!important;
+}
+.vs-btn.style3:hover{
+    color: #fff!important;
+    font-weight: 600!important;
+}
+
+.main-menu ul.sub-menu li a:before {
+    background-color: #bc8c2f;
+    box-shadow: inset 0px 2px 4px 0px #bc8c2f;
+}
+.main-menu ul.sub-menu, .main-menu ul.mega-menu {
+    border-bottom: 3px solid #bc8c2f;
+}
+.main-menu ul.sub-menu li a:hover {
+    color: #bc8c2f;
+}
+.main-menu a {
+    text-transform: none;
+}
+
+/* Consent Form Section */
+.consent-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    width: 100%;
+}
+
+/* Consent Form Cards */
+.consent-card {
+    background: #49267f;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.consent-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.consent-card h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.consent-card p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.consent-card .btn {
+    display: inline-block;
+    background: #bc8c2f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.consent-card .btn:hover {
+    background: #bc8c2f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .consent-section {
+        grid-template-columns: 100%;
+        padding: 0;
+    }
+}
+
+select, .form-control, .form-select, textarea, input {
+    height: 45px;
+    padding: 0 25px 0 20px;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.media-style6 {
+    margin-bottom: 20px;
+}
+.form_appointment{
+padding: 40px;
+/* background: rgba(248, 244, 234, 0.8); */
+}
+.form_appointment.form-style7 textarea {
+    min-height: 80px;
+}
+.table-style2 {
+    border-left: 5px solid #fddac7;
+}
+.cta_hm_row p{
+    color: #eee;
+}
+
+
+.team-style4 {
+    /* background-color: #e5d2fc; */
+    background: #222;
+}
+.services_section .team-style4 img{
+ height: 360px;
+ width: 100%;
+ object-fit: cover;
+}
+.services_section h3{
+  font-size: 22px!important;
+  font-weight: 600;
+  margin-bottom: 12px!important;
+  padding-top: 5px;
+  color: #fff;
+}
+.services_section p{
+  margin-bottom: 5px;
+  color: #ccc;
+}
+.services_section a{
+    color: #bc8c2f;
+}
+.rd_more{
+    color: #bc8c2f!important;
+}
+.services_section a:hover{
+    color: #c9a359;
+}
+.rd_more:hover{
+    color: #c9a359!important;
+}
+.link-btn:before {
+    background-color: #c9a359!important;
+}
+.message_image{
+    background: #49267f;
+    width: fit-content;
+    border-radius: 12px;
+}
+
+
+
+
+
