@@ -4,6 +4,21 @@
     background-color: #000;
     border-bottom: 1px solid #888;
 }
+.topbar_main li{
+    font-size: 18px!important;
+}
+.topbar_main a{
+    font-size: 18px!important;
+}
+.topbar_main .social-style1 a i{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+}
 .social-style1 {
     background-color: #000;
     padding: 10px 25px;
