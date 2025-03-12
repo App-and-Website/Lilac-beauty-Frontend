@@ -576,6 +576,8 @@ color: #fff;
         padding: 13px 20px;
     }
 }
-
+.testi-style4 .slick-dots button:hover, .testi-style4 .slick-dots .slick-active button {
+    background-color: #bc8c2f;
+}
 
 
