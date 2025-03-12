@@ -111,7 +111,26 @@
 .mobile_logo_sidebar{
     background: #49267f!important;
 }
+.button_primary{
+    background: #49267f!important;
+}
+.button_primary:before{
+    background: #49267f!important;
+}
+.button_primary:after{
+    background: #49267f!important;
+}
+.hero_sec{
+    background: hsla(40, 60%, 46%, 1);
 
+background: linear-gradient(270deg, hsla(40, 60%, 46%, 1) 37%, hsla(42, 60%, 67%, 1) 100%);
+
+background: -moz-linear-gradient(270deg, hsla(40, 60%, 46%, 1) 37%, hsla(42, 60%, 67%, 1) 100%);
+
+background: -webkit-linear-gradient(270deg, hsla(40, 60%, 46%, 1) 37%, hsla(42, 60%, 67%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#bc8c2f", endColorstr="#ddbf79", GradientType=1 );
+}
 .hero_content{
     max-width: 600px;
 }
@@ -246,16 +265,24 @@ select, .form-control, .form-select, textarea, input {
 }
 .form_appointment{
 padding: 40px;
-/* background: rgba(248, 244, 234, 0.8); */
+background: #bc8c2f;
+}
+.media-style6 .media-icon {
+    background-color: #6d46a8;
 }
 .form_appointment.form-style7 textarea {
     min-height: 80px;
 }
 .table-style2 {
-    border-left: 5px solid #fddac7;
+    border-left: 5px solid #bc8c2f;
 }
 .cta_hm_row p{
     color: #eee;
+}
+.cta_hm_row h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: #bc8c2f!important;
 }
 
 
@@ -350,7 +377,7 @@ border-radius: 16px!important;
 .work_hours{
     height: 100%;
     width: 100%;
-    background: url('assets/img/bg/team-bg-5-1.jpg');
+    background: #f2e8d5;
     filter: blur(0px);
     background-size: cover;
     display: flex;
@@ -453,4 +480,21 @@ h2{
 }
 
 
-
+.why_choose_section{
+    padding: 80px 0;
+    margin: 80px 0;
+    background: #f8f4ea;
+}
+.service-style5 .service-text {
+    max-width: 100%;
+}
+.why_choose_section h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.why_choose_section .service-style5:hover h3{
+color: #fff;
+}
+.why_choose_section .service-style5:hover{
+    background: #bc8c2f;
+}
