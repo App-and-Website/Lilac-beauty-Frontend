@@ -11,8 +11,8 @@
     font-size: 18px!important;
 }
 .topbar_main .social-style1 a i{
-    height: 35px;
-    width: 35px;
+    height: 32px;
+    width: 32px;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -226,7 +226,14 @@
         padding: 0;
     }
 }
-
+@media (max-width: 768px) {
+    .header-links li {
+        border-right: 0px solid rgba(255, 255, 255, 0.15);
+    }
+    .hide_small{
+        display: none!important;
+    }
+}
 select, .form-control, .form-select, textarea, input {
     height: 45px;
     padding: 0 25px 0 20px;
