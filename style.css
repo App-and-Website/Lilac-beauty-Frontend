@@ -321,11 +321,11 @@ background: #bc8c2f;
 .link-btn:before {
     background-color: #c9a359!important;
 }
-.message_image{
+/* .message_image{
     background: #49267f;
     width: fit-content;
     border-radius: 12px;
-}
+} */
 
 
 .vs-icon {
@@ -498,3 +498,15 @@ color: #fff;
 .why_choose_section .service-style5:hover{
     background: #bc8c2f;
 }
+.message_image{
+    padding-right: 80px;
+}
+.why_choose_section p, .offerp, .additional_content_sec p{
+    font-size: 18px!important;
+}
+@media (max-width: 768px) {
+    .message_image{
+        padding-right: 0px;
+    }
+}
+
