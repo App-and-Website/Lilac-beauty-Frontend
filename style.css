@@ -580,4 +580,10 @@ color: #fff;
     background-color: #bc8c2f;
 }
 
+@media (min-width: 1500px) {
+    .hero-layout1 .hero_content {
+        left: -150px!important;
+    }
+}
+
 
