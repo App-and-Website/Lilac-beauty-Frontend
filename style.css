@@ -329,6 +329,80 @@ border-radius: 16px!important;
     height: 100%;
     width: 100%;
     background: url('assets/img/bg/team-bg-5-1.jpg');
+    filter: blur(0px);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.work_hours::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3); /* Light overlay */
+    backdrop-filter: blur(1px); /* Blurs everything behind it */
+    z-index: 1;
+}
+.work_hours .wrapper{
+position: relative;
+z-index: 2;
+}
+.work_hours h2{
+    font-weight: 500;
+}
+.work_hours div{
+    font-size: 20px;
+    font-weight: 500;
+}
+.work_hours p{
+    font-size: 16px;
+    font-weight: 500;
+}
+@media (max-width: 991px) {
+    .testimonial_row .sec-title{
+        margin-bottom: -30px!important;
+    }
+    .testimonial_row .testi-style4{
+        margin-bottom: 50px!important;
+    }
+}
+
+.footer_main{
+    background: #49267f;
+    margin-top: 70px;
+}
+.footer_bottom .copyright-wrap{
+    background: #49267f;
+}
+.footer_logo img{
+    height: 120px;
+}
+.footer-layout8 .widget_title:after, .footer-layout8 .widget_title:before, .footer-layout7 .widget_title:after, .footer-layout7 .widget_title:before, .footer-media .media-icon {
+background: hsla(40, 60%, 46%, 1);
+
+background: linear-gradient(135deg, hsla(40, 60%, 46%, 1) 50%, hsla(42, 60%, 67%, 1) 100%);
+
+background: -moz-linear-gradient(135deg, hsla(40, 60%, 46%, 1) 50%, hsla(42, 60%, 67%, 1) 100%);
+
+background: -webkit-linear-gradient(135deg, hsla(40, 60%, 46%, 1) 50%, hsla(42, 60%, 67%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#bc8c2f", endColorstr="#ddbf79", GradientType=1 );
+}
+.footer_main a:hover{
+    color: #f8be4b;
+}
+.footer-menu a:hover{
+    color: #f8be4b!important;
+}
+.footer_bottom a:hover{
+    color: #f8be4b!important;
+}
+@media (max-width: 1200px) {
+    .footer_menu2{
+        margin-top: 10px;
+    }
 }
 
