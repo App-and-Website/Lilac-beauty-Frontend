@@ -658,5 +658,37 @@ color: #fff;
         padding: 60px 0px;
     }
 }
+.price_div{
+    height: 60px;
+    font-weight: 500;
+    margin-bottom: -30px!important;
+}
+.booknowbtn span{
+    margin-bottom: -15px!important;
+}
 
 
+.pricing_section .package-style3:hover {
+    background-color: #fff;
+}
+.pricing_section .package-style3:hover .package-price{
+    color: #000;
+}
+.pricing_section .package-style3 a{
+   color: #bc8c2f;
+}
+.pricing_section .title-area h3{
+    font-weight: 600;
+}
+@media (max-width: 991px) {
+    .package-style3 {
+        display: block;
+        text-align: left;
+    }
+    @media (max-width: 991px) {
+        .package-style3 .package-top {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
