@@ -565,6 +565,9 @@ color: #fff;
     margin-right: 50px;
     margin-left: 0px;
 }
+.mlzero img{
+    margin-left: 0px !important;
+}
 @media (max-width: 1200px) {
     .message_image {
         padding-right: 0px!important;
@@ -632,4 +635,28 @@ color: #fff;
 .values_section p{
     font-size: 17px!important;
 }
+
+
+.cta_row{
+    padding: 80px 50px;
+    border-radius: 12px;
+    text-align: center;
+}
+.cta_row h2{
+    font-size: 42px;
+    color: #fff;
+}
+.cta_row p{
+    font-size: 18px;
+    color: #eee;
+}
+@media (max-width: 768px) {
+    .cta_row h2{
+        font-size: 32px;
+    }
+    .cta_row{
+        padding: 60px 0px;
+    }
+}
+
 
