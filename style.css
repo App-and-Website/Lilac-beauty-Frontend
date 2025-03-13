@@ -715,3 +715,27 @@ color: #fff;
 .social_contact_page a:hover i{
     color: #fff;
 }
+
+
+.blog_section h3:hover{
+    color: #bc8c2f!important;
+}
+.blog_section .link-btn{
+    color: #bc8c2f!important;
+}
+.blog_section .blog-meta i{
+    color: #bc8c2f!important;
+}
+.blog_details_main .recent-post-meta a{
+    color: #bc8c2f!important;
+}
+.blog_details_main .recent-post-meta a i{
+    color: #bc8c2f!important;
+}
+.blog_details_main .post-title a:hover{
+    color: #bc8c2f!important;
+}
+.blog_details_main .widget_categories  a:hover{
+    color: #bc8c2f!important;
+}
+
