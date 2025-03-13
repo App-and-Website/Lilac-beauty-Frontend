@@ -559,6 +559,11 @@ color: #fff;
     height: 100%;
     width: 100%;
     object-fit: cover;
+    margin-left: 80px;
+}
+.message_image{
+    margin-right: 50px;
+    margin-left: 0px;
 }
 @media (max-width: 1200px) {
     .message_image {
@@ -567,6 +572,13 @@ color: #fff;
     .service-style5 .service-title {
         font-size: 20px;
         transition: all ease 0.4s;
+    }
+    .about_image img{
+        margin-left: 0px;
+    }
+    .message_image{
+        margin-right: 0px;
+        margin-left: 0px;
     }
 }
 
@@ -586,4 +598,38 @@ color: #fff;
     }
 }
 
+
+
+.breadcrumb_main h1,
+.breadcrumb_main ul li,
+.breadcrumb_main ul li a,
+.breadcrumb_main ul li span {
+    color: #fff;
+    text-align: center;
+}
+.breadcumb-menu-wrap{
+    display: flex;
+    justify-content: center;
+}
+.breadcrumb_main ul li a:hover {
+    color: #bc8c2f;
+}
+
+
+.values_section{
+    background: url('assets/images/about-page-bg.jpg');
+    background-size: cover;
+}
+.feature-style1:hover {
+    background-color: #bc8c2f;
+}
+.feature-style1:hover .vs-icon{
+    box-shadow: 0 0 0 14px #a97e2a;
+}
+.arrow-shape {
+    color: #bc8c2f;
+}
+.values_section p{
+    font-size: 17px!important;
+}
 
