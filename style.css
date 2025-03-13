@@ -690,5 +690,28 @@ color: #fff;
             display: flex;
             justify-content: space-between;
         }
+        .cntctwdgt p{
+            text-align: left!important;
+        }
     }
+}
+
+
+.mega-hover{
+    height: 500px;
+}
+.contact_text{
+    font-size: 18px!important;
+}
+.social_contact_page{
+    margin-top: 30px;
+}
+.contact_page_widget a:hover{
+    color: #bc8c2f!important;
+}
+.social_contact_page a:hover{
+    background: #bc8c2f!important;
+}
+.social_contact_page a:hover i{
+    color: #fff;
 }
