@@ -739,3 +739,6 @@ color: #fff;
     color: #bc8c2f!important;
 }
 
+.error-number .zero {
+    color: #bc8c2f;
+}
