@@ -110,6 +110,11 @@
         font-size: 18px;
     }
 }
+@media screen and (min-width: 1400px) {
+    .hero-layout1 .hero-img {
+        flex: none;
+    }
+}
 
 @media screen and (max-width: 992px) {
     .hide_medium{
@@ -597,7 +602,10 @@ color: #fff;
 
 @media (min-width: 1500px) {
     .hero-layout1 .hero_content {
-        left: -150px!important;
+        left: 120px!important;
+    }
+    .hero-layout1 .hero-img {
+        margin-left: 150px!important;
     }
 }
 
